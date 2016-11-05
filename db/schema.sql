@@ -3,10 +3,10 @@ USE burgers_db;
 
 CREATE table burgers
 (
-	id int NOT NULL AUTO_INCREMENT,
+	id int AUTO_INCREMENT NOT NULL,
     burger_name varchar(255) NOT NULL,
     devoured BOOLEAN DEFAULT false,
-    TIMESTAMP,
+    TIMESTAMP()
     );
     
     
